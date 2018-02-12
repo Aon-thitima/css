@@ -1,0 +1,137 @@
+body {
+    padding:0 0 100px 0px;
+    margin: 0 0 0 0 0;
+    overflow-x: hidden;
+    background-color: #E8E8E8;
+}
+
+.container{
+    margin-top: 70px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    width:100%;
+    min-height: 70px;
+    position: fixed; 
+    top: 0;
+    background-color: white;
+}
+
+.navbar > h1.title {
+    float: left;
+    padding-top: 10px !important;  
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    color: black;
+    font-size: 30px;
+    display:inline-block;
+    margin-left: 70px;
+    padding-right: 0%;
+}
+
+.navbar ul {
+    display:inline;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: inline-block;
+    color: pink;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+    vertical-align:middle;
+}
+
+li a:hover {
+    color: lightgreen !important;
+    background-color: lightcoral;
+}
+li a.active {
+    color: black !important;
+    background-color: pink;
+}
+
+.block   {
+    text-align: center;
+    margin-top: 90px;
+}
+
+article  {
+     margin-left: 40px;
+     margin-top: 20px;
+     display: inline-block;
+     -webkit-box-shadow: 0 8px 6px -6px #999;
+     -moz-box-shadow: 0 8px 6px -6px #999;
+     box-shadow: 0 8px 6px -6px #999;
+     width:20%;
+     min-height: 70px;
+     top: 0;
+     background-color: white;
+     margin-right: 100px;
+}
+
+article div.name {
+    margin-top: 20px;
+    background-color: lightblue;
+    color: white;
+    height:200px;
+}
+
+article div.detail{
+    text-align: center;
+}
+
+div.name > h1 {
+    text-align: center;
+    padding-top: 30%;
+    font-size: 40px;;    
+}
+
+footer {
+    position:fixed;
+    left:0px;
+    right: 8px;
+    bottom:0px;
+    width:100%;
+    background: gray;
+    color: white;
+    text-align: center;
+ }
+
+ header {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+ }
+ 
+#screen {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+    margin-top: 30px;
+    height: 250px;
+    background-color: #ffffff;
+}
+
+canvas {
+    display: list-item;
+}
